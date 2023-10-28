@@ -1,0 +1,137 @@
+.ignore{
+
+}
+#profilepic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 400px;
+    max-width: 600px;
+}
+
+
+
+* {
+    margin: 0;
+    border: border-box;
+}
+.utmosttext{
+    font-size: 1.25rem;
+    height: 80px;
+    background-color: #00A9FF;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-bottom: 0.5px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+.herosection{
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: center;
+
+}
+.table{
+    font-family: 'Poppins', sans-serif;
+}
+
+.herosection3{
+    border: solid black ;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.herosection2{
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: ;
+}
+.herosection1{
+
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #89CFF3;
+}
+
+#projecttitle{
+    padding-bottom: 20px;
+}
+.project{
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: center;
+    padding-top: 15px;
+    margin-top: 10px;
+    border-top: solid #00A9FF;
+    background-color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #A0E9FF;
+    padding-bottom: 1000px;
+}
+
+.project1{
+    border: solid black;
+    padding: 20px;
+    font-size: large;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.contactme{
+    padding: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    font-size: large;
+}
+
+.Socials{
+    padding: 20px;
+    border: solid black;
+    border: 2px;
+}
+
+
+
+
+/**Footer**/
+.foot-panel{  
+    border-top: solid #00A9FF;  
+    height: 50px;
+    background-color: #CDF5FD;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Poppins', sans-serif; 
+
+
+}

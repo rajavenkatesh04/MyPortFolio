@@ -24,7 +24,7 @@ img{
 }
 .utmosttext{
     font-size: 1.25rem;
-    height: 80px;
+    height: 70px;
     background-color: #00A9FF;
     display: flex;
     align-items: center;
@@ -38,7 +38,23 @@ img{
     padding-right: 25%;
 }
 
+.topcontact:hover{
+    color: whitesmoke;
+}
 
+.topprojects:hover{
+    color: whitesmoke;
+}
+
+.home{
+    background: transparent;
+    -webkit-transition-property: 2s ease-out;
+}
+
+.home:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
 .herosection{
     padding-left: 25%;
     padding-right: 25%;
@@ -73,7 +89,9 @@ img{
 
 body {
     background-color: #89CFF3;
+
 }
+
 
 #projecttitle{
     padding-bottom: 20px;
@@ -90,7 +108,22 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     background-color: #A0E9FF;
-    padding-bottom: 1000px;
+
+    padding-bottom: 41px;
+    border-bottom: 3px solid #89CFF3;
+
+}
+
+.project1text {
+    padding-left: 10px;
+}
+
+.project2text {
+    padding-right: 10px;
+}
+
+.project3text {
+    padding-left: 10px;;
 }
 
 .project1{
@@ -103,6 +136,31 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+.project2{
+    margin-top: 40px;
+    border: solid black;
+    padding: 20px;
+    font-size: large;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project3{
+    margin-top: 40px;
+    border: solid black;
+    padding: 20px;
+    font-size: large;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
 
 
 .contactme{
@@ -115,12 +173,57 @@ body {
     font-size: large;
 }
 
+.Certificates {
+    font-size: 1.25rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.insidecerti {
+    padding-left: 10px;
+    border-left: solid lightskyblue;
+    margin-bottom: 20px;;
+}
+
+.bharat {
+    padding-left: 10px;
+    border-left: solid lightskyblue;
+    margin-bottom: 20px;;
+}
+
+.intern {
+    padding: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif; 
+    font-size: large;
+    background-color:white;
+
+}
+
+.BharatInternWelcomeLetter {
+    padding-top: 10px;
+}
+
+
 .Socials{
+    padding-left: 25%;
+    padding-right: 25%;
+    border-top:solid #00A9FF;  
     padding: 20px;
     border: solid black;
     border: 2px;
 }
 
+.interntext {
+    color: lightseagreen;
+}
+
+.certitext {
+    color: lightseagreen;
+}
 
 
 
@@ -132,6 +235,4 @@ body {
     text-align: center;
     padding-top: 25px;
     font-family: 'Poppins', sans-serif; 
-
-
 }
